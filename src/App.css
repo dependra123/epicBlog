@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+:root{
+  
+  --onyx: #70787a;
+  --quick-silver: #e0e7d9;
+  --nadeshecko-pink: #c6869e;
+  --rubine-red: #CA2E55;
+  --lemon: #EEFC57;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Kanit', sans-serif;
+  text-decoration: none;
+  font-smooth: always
+}
+body{
+  background: var(--quick-silver);
+}
+
+/*Home page */
+.body{
+  
+  display: flex;
+  justify-content: center;
+}
+.body h1{
+  margin: 10px 10px;
+  padding: 0.25rem;
+  color: var(--onyx);
+}
+.body p{
+  margin: 7%;
+  padding: 0.2 rem;
+  position: fixed;
+  top: 10%;
+  text-algin: left;
+}
+
+/*login page */
+
+.loginDiv{
+  color: var(--quick-silver);
+  margin: 15%;
+  padding: 1rem;
+  justify-content: center;
+  display: flex-inline;
+  background: var(--onyx);
+  border: 0.5rem solid var(--nadeshecko-pink);
+}
+
+
+
